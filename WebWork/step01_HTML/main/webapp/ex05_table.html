@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+<style type="text/css">
+	/*css 만들기*/
+	thead {color: red}
+	tbody {color: blue}
+	tfoot {color: green}
+</style>
+
+</head>
+<body>
+<h1>&lt;table> 만들기</h1>
+
+<table border="1" width = "300" height="200" cellspacing = "0">
+<thead>
+<tr>
+	<th>이름</th>
+	<th>나이</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td>김민수</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>장민</td>
+	<td>27</td>
+</tr>
+<tr>
+	<td>박수</td>
+	<td>31</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+	<td>총 인원수</td>
+	<td>3명</td>
+</tr>
+</tfoot>
+</table>
+
+<hr>
+
+<h3>행병합 -rowspan="개수" </h3>
+<table border="1" width = "100" height = "50">
+<tr>
+	<td rowspan="2">A</td>
+	<td>B</td>
+</tr>
+<tr>
+	<td>C</td>
+</tr>
+
+</table>
+<hr>
+<h3>열병합 - colspan="개수"</h3>
+<table border="1" width = "100" height = "50">
+	<tr>
+		<th colspan="2">A</th>
+	</tr>
+		<th>B</th>
+		<th>C</th>
+
+</table>
+
+<hr>
+<h3>예제</h3>
+<table border="1" width = "100" height = "200" align = "center">
+	<caption>표제목</caption>
+	<tr>
+		<th colspan="3">A</th>
+	</tr>
+		
+
+		
+	<tr>
+		<th rowspan="3">B</th>
+		<th colspan="2">C</th>
+	</tr>
+		<tr>
+		<th>D</th>
+		<th>F</th>
+		</tr>
+	<tr>
+		<th>E</th>
+		<th>G</th>
+	</tr>
+	
+	<tr>
+		<th rowspan="4">i</th>
+		<th colspan="2">h</th>
+	</tr>
+	
+	<tr>
+		<th>j</th>
+		<th>k</th>
+	</tr>
+		
+	<tr>
+		<th>l</th>
+		<th>n</th>
+	</tr>
+	
+	<tr>
+		<th>o</th>
+		<th>p</th>
+	</tr>
+</table>
+
+
+</body>
+</html>

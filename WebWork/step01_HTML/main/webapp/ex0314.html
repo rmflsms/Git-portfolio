@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style type="text/css">
+	/*css 만들기*/
+	td{width: 120px}
+	</style>
+</head>
+
+<body>
+	<h3>과제</h3>
+<table border="1" width = "600" height = "200" align = "center" cellspacing = "0">
+	
+	<tr>
+		<th> 사용자ID </th>
+		<td colspan="3">
+		 <input "text" name="id" size="12" value="" placeholder="">
+		 <input type="button" value="ID중복확인">
+		</td>
+	</tr>
+		
+	
+		
+	<tr>
+		<th colspan="1" >비밀번호</th>
+		<td colspan="1">
+		<input type="password" name="pass" id="pass" size="12"maxlength="5" placeholder="비밀번호">
+		</td>
+		<th >비밀번호확인</th>
+		<td colspan="2">
+		<input type="password" name="pass" id="pass"size="12" maxlength="5" placeholder="비밀번호 확인">
+		</td>
+	</tr>
+		<tr>
+		<th>사용자 이름</th>
+		<td colspan="3">
+		 <input "text" name="name" size="12" value="" placeholder="">
+		 </td>
+		</tr>
+	<tr>
+		<th>주민등록번호</th>
+		<td colspan="3">
+		<input type="text" name="security Number" size="12" value="" placeholder=""> - 
+		<input type="password" name="security Number" id="pass" maxlength="5" size="12" placeholder="">
+		
+		</td>
+	</tr>
+	
+	<tr>
+		<th colspan="1">생년월일</th>
+		<td colspan="5">
+		<input type="text" name="year" size="12" value="" placeholder="">년 
+		 <select name="month" size="1" >
+		 <option value="01">01</option> 
+	 	<option value="02">02</option>			
+	 	<option value="03">03</option>
+	 	<option value="04">04</option>
+	 	<option value="05">05</option>
+	 	<option value="06">06</option>
+	 	<option value="07">07</option>
+	 	<option value="08">08</option>
+	 	<option value="09">09</option>
+	 	<option value="10">10</option>
+	 	<option value="11">11</option>
+	 	<option value="12">12</option> 
+	 	
+	 </select>월
+	 	
+		 <select name="day" size="1" > 
+		 <option value="01">01</option> 
+	 	<option value="02">02</option>
+	 	<option value="03">03</option>
+	 	<option value="04">04</option>
+	 	<option value="05">05</option>
+	 	<option value="06">06</option>
+	 	<option value="07">07</option>
+	 	<option value="08">08</option>
+	 	<option value="09">09</option>
+	 	<option value="10">10</option>
+	 	<option value="11">11</option>
+	 	<option value="12">12</option> 
+	 	
+	 </select>일
+	 
+		</td>
+	</tr>
+	
+	<tr>
+		<th>우편번호</th>
+		<td colspan="3">
+		<input type="text" name="code" size="12" value="" placeholder=""> - 
+		<input type="text" name="code" size="12" value="" placeholder="">
+		<input type="button" value="우편번호검색">
+		</td>
+	</tr>
+		
+	<tr>
+		<th>주소</th>
+		<td colspan="3">
+		<input type="text" name="address" size="62" value="" placeholder="">
+		</td>
+	</tr>
+	
+	<tr>
+		<th>나머지 주소</th>
+		<td colspan="3">
+		<input type="text" name="address" size="30" value="" placeholder="">
+		</td>
+	</tr>
+		<tr>
+		<th>E-Mail</th>
+		<td colspan="3">
+		<input type="text" name="mail" size="12" value="" placeholder=""> @ 
+		
+		 <select name="day" size="1" > 
+		<option value="0">선택하세요 </option>
+	 	<option value="naver.com">naver.com</option>
+	 	<option value="gmail.com">gmail.com</option>
+	 	<option value="daum.net">daum.net</option>
+	 
+	 </select>
+		
+		</td>
+	</tr>
+	
+		<tr>
+		<th>직업</th>
+		<td colspan="3">
+		<select name="day" size="1" > 
+		<option value="컴퓨터/정보통신">컴퓨터/정보통신</option>
+	 	<option value="개발자">개발자</option>
+	 	<option value="웹디자이너">웹디자이너</option>
+	 	<option value="강사">강사</option>
+		</td>
+	</tr>
+	<tr>
+		<th colspan="5">
+		<input type="button" value="등록" width="20">
+		<input type="button" value="취소" width="20">
+		</th>
+	</tr>
+	
+</table>
+	
+
+</body>
+</html>
